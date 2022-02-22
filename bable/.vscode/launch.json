@@ -1,0 +1,62 @@
+{
+    "configurations": [{
+            "name": "parse",
+            "program": "${workspaceFolder}/01.parse/src/index.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "stopOnEntry": true,
+            "type": "pwa-node"
+        }, {
+            "name": "替换",
+            "program": "${workspaceFolder}/10.replace/src/index.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "stopOnEntry": true,
+            "type": "pwa-node"
+        },
+        {
+            "name": "插入代码-v1",
+            "program": "${workspaceFolder}/11.function-parameters-insert/src/version1.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "stopOnEntry": true,
+            "type": "pwa-node"
+        },
+        {
+            "name": "插入代码-v2",
+            "program": "${workspaceFolder}/11.function-parameters-insert/src/version2.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "stopOnEntry": true,
+            "type": "pwa-node"
+        },
+        {
+            "name": "增加tryCatch",
+            "program": "${workspaceFolder}/100.function-try-catch-demo/src/index.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "stopOnEntry": true,
+            "type": "pwa-node"
+        },
+        {
+            "name": "loader",
+            "program": "${workspaceFolder}/101.plugin-babel-function-try-catch/src/index.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "stopOnEntry": true,
+            "type": "pwa-node"
+        }
+    ]
+}
