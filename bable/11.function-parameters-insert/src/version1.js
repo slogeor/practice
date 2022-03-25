@@ -31,7 +31,6 @@ const ast = parser.parse(sourceCode, {
 
 const targetCalleeName = ['log', 'info', 'error', 'debug'].map(item => `console.${item}`);
 traverse(ast, {
-    VariableDeclaration(path, state) {},
     CallExpression(path, state) {
         if (path.node.isNew) {
             return;

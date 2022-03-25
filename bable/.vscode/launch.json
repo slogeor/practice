@@ -1,5 +1,66 @@
 {
-    "configurations": [{
+    "configurations": [
+        {
+            "name": "babel API::parse",
+            "program": "${workspaceFolder}/03.api/src/01.parse/index.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "stopOnEntry": true,
+            "type": "pwa-node"
+        },
+        {
+            "name": "babel API::traverse",
+            "program": "${workspaceFolder}/03.api/src/02.traverse/index.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "stopOnEntry": true,
+            "type": "pwa-node"
+        },
+        {
+            "name": "babel API::type",
+            "program": "${workspaceFolder}/03.api/src/03.type/index.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "stopOnEntry": true,
+            "type": "pwa-node"
+        },
+        {
+            "name": "babel API::template",
+            "program": "${workspaceFolder}/03.api/src/04.template/index.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "stopOnEntry": true,
+            "type": "pwa-node"
+        },
+        {
+            "name": "babel API::visitor",
+            "program": "${workspaceFolder}/03.api/src/05.visitor/index.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "stopOnEntry": true,
+            "type": "pwa-node"
+        },
+        {
+            "name": "babel API::demo",
+            "program": "${workspaceFolder}/11.function-parameters-insert/src/version1.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "stopOnEntry": true,
+            "type": "pwa-node"
+        },
+        {
             "name": "parse",
             "program": "${workspaceFolder}/01.parse/src/index.js",
             "request": "launch",
@@ -8,7 +69,18 @@
             ],
             "stopOnEntry": true,
             "type": "pwa-node"
-        }, {
+        },
+        {
+            "name": "path",
+            "program": "${workspaceFolder}/02.path/src/index.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "stopOnEntry": true,
+            "type": "pwa-node"
+        },
+        {
             "name": "替换",
             "program": "${workspaceFolder}/10.replace/src/index.js",
             "request": "launch",
